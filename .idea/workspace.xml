@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c77c0649-4682-438c-89da-ffe538d8e63f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1sw7enGwukuPaqlVS2hosZFF6gB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Application.SaveStudentOrder">
+    <configuration name="SaveStudentOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SaveStudentOrder" />
+      <module name="PetProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentOrederValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentOrederValidator" />
+      <module name="PetProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SaveStudentOrder" />
+        <item itemvalue="Application.StudentOrederValidator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c77c0649-4682-438c-89da-ffe538d8e63f" name="Default Changelist" comment="" />
+      <created>1621771895108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621771895108</updated>
+      <workItem from="1621771897743" duration="1804000" />
+      <workItem from="1621872530936" duration="140000" />
+      <workItem from="1621877895479" duration="2210000" />
+      <workItem from="1622213778119" duration="454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="377" y="27" key="CommitChangelistDialog2" timestamp="1622214174875">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state x="377" y="27" key="CommitChangelistDialog2/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622214174875" />
+    <state x="575" y="370" key="Github.CreateGistDialog" timestamp="1622214041214">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state x="575" y="370" key="Github.CreateGistDialog/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622214041214" />
+    <state width="1334" height="236" key="GridCell.Tab.0.bottom" timestamp="1621880203386">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state width="1334" height="236" key="GridCell.Tab.0.bottom/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1621880203386" />
+    <state width="1334" height="236" key="GridCell.Tab.0.center" timestamp="1621880203386">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state width="1334" height="236" key="GridCell.Tab.0.center/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1621880203386" />
+    <state width="1334" height="236" key="GridCell.Tab.0.left" timestamp="1621880203386">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state width="1334" height="236" key="GridCell.Tab.0.left/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1621880203386" />
+    <state width="1334" height="236" key="GridCell.Tab.0.right" timestamp="1621880203386">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state width="1334" height="236" key="GridCell.Tab.0.right/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1621880203386" />
+    <state x="231" y="24" key="SettingsEditor" timestamp="1622214233734">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state x="231" y="24" key="SettingsEditor/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622214233734" />
+    <state x="560" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622214069565">
+      <screen x="63" y="0" width="1377" height="900" />
+    </state>
+    <state x="560" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622214069565" />
+  </component>
+</project>
