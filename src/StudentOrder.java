@@ -3,6 +3,4 @@ public class StudentOrder {
     String hLastName;
     String wFirstName;
     String wLastName;
-
-
 }
