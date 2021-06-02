@@ -16,21 +16,22 @@ public class StudentOrederValidator {
         return so;
         //Чтение студенческой заявки передача данных
     }
-    static AnswerWedding checkCityRegister(StudentOrder so){
+    static AnwerSityRegister checkCityRegister(StudentOrder so){
         System.out.println("SityRegister is runing");
         return new AnwerSityRegister();
     }
-    static checkWedding(StudentOrder so){
-        AnswerWedding = ans = new AnswerWedding()
-        System.out.println("Wedding is running");
-        return; ans;
+    static AnswerWedding checkWedding(StudentOrder so){
+        System.out.println("Wedding is runing");
+        return new AnswerWedding();
     }
     static AnswerChildren checkChildren(StudentOrder so){
         System.out.println("Children is running");
         return new AnswerChildren();
+
     }
-    static void checkStudent(StudentOrder so){
+    static AnswerStudent checkStudent(StudentOrder so){
         System.out.println("Student is validating");
+        return new AnswerStudent();
     }
     static void  sendMail(StudentOrder so){
 
