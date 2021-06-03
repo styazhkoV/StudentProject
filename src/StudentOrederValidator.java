@@ -16,7 +16,8 @@ public class StudentOrederValidator {
             AnwerSityRegister cityAnswer = checkCityRegister(so);
             if (!cityAnswer.succses){
                 //Прекратить обработку и вернуться к следующей заявке
-                continue;
+                //continue;
+                break;
             }
             AnswerChildren childrenAnswer = checkChildren(so);
             AnswerStudent studentAnswer = checkStudent(so);
@@ -24,32 +25,29 @@ public class StudentOrederValidator {
             //Отправка письма
             sendMail(so);
             }
-        System.out.println("finish 2");
         }
     //Чтение студенческой заявки передача данных
     static StudentOrder readStudentOrder(){
         StudentOrder so = new StudentOrder();
         return so;
+    }
+    static AnwerSityRegister checkCityRegister (StudentOrder so){
+        CityRegisterValidator crv1 = new CityRegisterValidator();
+        crv1.hostName = "Host1";
+        crv1.login = "Login1";
+        crv1.password = "Password1";
+        AnwerSityRegister ans1 = crv1.checkCityRegister(so);
+        return ans1;
+    }
 
-    }
-    static AnwerSityRegister checkCityRegister(StudentOrder so){
-        System.out.println("SityRegister is runing");
-        AnwerSityRegister anwerSityRegister = new AnwerSityRegister();
-        anwerSityRegister.succses = false;
-        return anwerSityRegister;
-    }
     static AnswerWedding checkWedding(StudentOrder so){
-        System.out.println("Wedding is runing");
-        return new AnswerWedding();
+        return CheckWeddingValidator.checkWedding(so);
     }
     static AnswerChildren checkChildren(StudentOrder so){
-        System.out.println("Children is running");
-        return new AnswerChildren();
-
+        return CheckChildrenValidator.checkChildren(so);
     }
     static AnswerStudent checkStudent(StudentOrder so){
-        System.out.println("Student is validating");
-        return new AnswerStudent();
+        return CheckStudentValidator.checkStudent(so);
     }
     static void  sendMail(StudentOrder so){
         System.out.println("mail send");

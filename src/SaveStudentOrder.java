@@ -1,7 +1,7 @@
 public class SaveStudentOrder {
     public static void main(String[] args) {
         //Получаю данные на вход
-       StudentOrder so;
+       StudentOrder so; so = new StudentOrder();
        so = new StudentOrder();
        so.hFirstName = "Alexey";
        so.hLastName = "Petrov";
