@@ -1,3 +1,7 @@
+package edu.studentorder.petproject;
+
+import edu.studentorder.petproject.domain.StudentOrder;
+
 public class SaveStudentOrder {
     public static void main(String[] args) {
         //Получаю данные на вход
@@ -5,7 +9,7 @@ public class SaveStudentOrder {
        so = new StudentOrder();
        so.hFirstName = "Alexey";
        so.hLastName = "Petrov";
-       so.wLastName = "Galina";
+       so.wFirstName = "Galina";
        so.wLastName = "Petrova";
 
        long ans = saveStudentOrder(so);

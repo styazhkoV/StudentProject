@@ -1,3 +1,12 @@
+package edu.studentorder.petproject;
+
+import edu.studentorder.petproject.domain.*;
+import edu.studentorder.petproject.mail.MailSender;
+import edu.studentorder.petproject.validator.ChildrenValidator;
+import edu.studentorder.petproject.validator.CityRegisterValidator;
+import edu.studentorder.petproject.validator.StudentValidator;
+import edu.studentorder.petproject.validator.WeddingValidator;
+
 public class StudentOrederValidator {
     public static void main(String[] args) {
        checkAll();
@@ -33,24 +42,25 @@ public class StudentOrederValidator {
     }
     static AnwerSityRegister checkCityRegister (StudentOrder so){
         CityRegisterValidator crv1 = new CityRegisterValidator();
-        crv1.hostName = "Host1";
-        crv1.login = "Login1";
-        crv1.password = "Password1";
-        AnwerSityRegister ans1 = crv1.checkCityRegister(so);
-        return ans1;
+        /*crv1.hostName = "Host1";
+        crv1.login = "Login1";*/
+        AnwerSityRegister ans = crv1.checkCityRegister(so);
+        return ans;
     }
 
     static AnswerWedding checkWedding(StudentOrder so){
-        return CheckWeddingValidator.checkWedding(so);
+        WeddingValidator wd = new WeddingValidator();
+        return wd.checkWedding(so);
     }
     static AnswerChildren checkChildren(StudentOrder so){
-        return CheckChildrenValidator.checkChildren(so);
+        ChildrenValidator cv = new ChildrenValidator();
+        return cv.checkChildren(so);
     }
     static AnswerStudent checkStudent(StudentOrder so){
-        return CheckStudentValidator.checkStudent(so);
+        StudentValidator sv = new StudentValidator();
+        return sv.checkStudent(so);
     }
     static void  sendMail(StudentOrder so){
-        System.out.println("mail send");
-
+        new MailSender().sendMail(so);
     }
 }

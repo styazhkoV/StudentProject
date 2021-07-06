@@ -26,17 +26,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c77c0649-4682-438c-89da-ffe538d8e63f" name="Default Changelist" comment="StudentOrederValidator while">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckChildrenValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckStudentValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckWeddingValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CityRegisterValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/mail/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/validator/ChildrenValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/validator/StudentValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/validator/WeddingValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnswerChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnswerChildren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnswerStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnswerStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnswerWedding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnswerWedding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SaveStudentOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentOrederValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentOrederValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PetProject/CheckChildrenValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PetProject/CheckChildrenValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PetProject/CheckStudentValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PetProject/CheckStudentValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PetProject/CheckWeddingValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PetProject/CheckWeddingValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnswerChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/domain/AnswerChildren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnswerStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/domain/AnswerStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnswerWedding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/domain/AnswerWedding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnwerSityRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/domain/AnwerSityRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckChildrenValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckStudentValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckWeddingValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CityRegisterValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/validator/CityRegisterValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SaveStudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/SaveStudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/domain/StudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentOrederValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/studentorder/petproject/StudentOrederValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +82,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/edu/studentorder/petproject/validator" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexs\StudentProject\src\edu\studentorder\petproject\validator" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="cr1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StudentOrederValidator">
     <configuration name="SaveStudentOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SaveStudentOrder" />
+      <option name="MAIN_CLASS_NAME" value="edu.studentorder.petproject.SaveStudentOrder" />
       <module name="PetProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentOrederValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentOrederValidator" />
+    <configuration name="StudentOrederValidator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.studentorder.petproject.StudentOrederValidator" />
       <module name="PetProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,7 +113,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentOrederValidator" />
         <item itemvalue="Application.SaveStudentOrder" />
       </list>
     </recent_temporary>
@@ -123,6 +134,10 @@
       <workItem from="1622357196656" duration="4087000" />
       <workItem from="1622650784463" duration="9216000" />
       <workItem from="1622736184259" duration="2717000" />
+      <workItem from="1623949017984" duration="291000" />
+      <workItem from="1625503089874" duration="1200000" />
+      <workItem from="1625525171509" duration="356000" />
+      <workItem from="1625531826210" duration="5326000" />
     </task>
     <task id="LOCAL-00001" summary="Type Data">
       <created>1622568208378</created>
@@ -209,30 +224,30 @@
       <screen x="63" y="0" width="1377" height="900" />
     </state>
     <state x="575" y="370" key="Github.CreateGistDialog/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622214041214" />
-    <state width="1334" height="236" key="GridCell.Tab.0.bottom" timestamp="1622738297953">
+    <state width="1334" height="236" key="GridCell.Tab.0.bottom" timestamp="1625534016670">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
-    <state width="1334" height="236" key="GridCell.Tab.0.bottom/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622738297953" />
-    <state width="1334" height="236" key="GridCell.Tab.0.center" timestamp="1622738297953">
+    <state width="1334" height="236" key="GridCell.Tab.0.bottom/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1625534016670" />
+    <state width="1334" height="236" key="GridCell.Tab.0.center" timestamp="1625534016670">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
-    <state width="1334" height="236" key="GridCell.Tab.0.center/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622738297953" />
-    <state width="1334" height="236" key="GridCell.Tab.0.left" timestamp="1622738297953">
+    <state width="1334" height="236" key="GridCell.Tab.0.center/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1625534016670" />
+    <state width="1334" height="236" key="GridCell.Tab.0.left" timestamp="1625534016669">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
-    <state width="1334" height="236" key="GridCell.Tab.0.left/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622738297953" />
-    <state width="1334" height="236" key="GridCell.Tab.0.right" timestamp="1622738297953">
+    <state width="1334" height="236" key="GridCell.Tab.0.left/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1625534016669" />
+    <state width="1334" height="236" key="GridCell.Tab.0.right" timestamp="1625534016670">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
-    <state width="1334" height="236" key="GridCell.Tab.0.right/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622738297953" />
+    <state width="1334" height="236" key="GridCell.Tab.0.right/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1625534016670" />
     <state x="231" y="24" key="SettingsEditor" timestamp="1622567222861">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
     <state x="231" y="24" key="SettingsEditor/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622567222861" />
-    <state x="343" y="185" key="Vcs.Push.Dialog.v2" timestamp="1622656400182">
+    <state x="343" y="185" key="Vcs.Push.Dialog.v2" timestamp="1623949293237">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
-    <state x="343" y="185" key="Vcs.Push.Dialog.v2/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1622656400182" />
+    <state x="343" y="185" key="Vcs.Push.Dialog.v2/63.0.1377.900/1440.142.1360.728@63.0.1377.900" timestamp="1623949293237" />
     <state x="560" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622570221336">
       <screen x="63" y="0" width="1377" height="900" />
     </state>
